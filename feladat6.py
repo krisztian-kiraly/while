@@ -6,5 +6,4 @@ for _ in range(20):
     if szam % 3 == 0:
         print(szam)
         darab = darab + 1
-
 print(f"Összesen {darab} darab 3-mal osztható szám volt a 20 közül.")
