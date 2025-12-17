@@ -5,5 +5,6 @@ for _ in range(20):
     szam = random.randint(1, 12)
     if szam % 3 == 0:
         print(szam)
-        darab += 1
+        darab = darab + 1
+
 print(f"Összesen {darab} darab 3-mal osztható szám volt a 20 közül.")
